@@ -44,11 +44,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'Mago Sport Science',
+        short_name: 'Mago Sport Science',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
+        background_color: '#FF0000',
+        theme_color: '#FF0000',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
