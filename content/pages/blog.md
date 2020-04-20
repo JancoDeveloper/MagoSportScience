@@ -1,10 +1,12 @@
 ---
 template: BlogIndex
 slug: blog
-title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+title: Blog del Mago
+featuredImage: >-
+  https://ucarecdn.com/ca938de5-353c-4b3c-b833-8b1cf1690f7e/-/crop/1440x521/0,158/-/preview/
+subtitle: Blog del Mago Hilvar
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: El blog del Mago Hilvar
+  title: Blog del Mago
 ---
+
