@@ -1,8 +1,7 @@
 ---
 template: BlogIndex
-title: News
+title: Motivacion
 subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+featuredImage: 'https://ucarecdn.com/2476e6b0-6152-443c-80ad-4471a496ec5e/'
 ---
 
