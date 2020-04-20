@@ -21,7 +21,7 @@ export class Navigation extends Component {
   // Only close nav if it is open
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
 
-  toggleSubNav = (subNav) =>
+  toggleSubNav = subNav =>
     this.setState({
       activeSubNav: this.state.activeSubNav === subNav ? false : subNav
     })
@@ -50,7 +50,7 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
-            {/* <NavLink to="/components/">Components</NavLink>
+            {/* <NavLink to="/components/">Components</NavLink> */}
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -69,7 +69,7 @@ export class Navigation extends Component {
                 Blog
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+                    Todos los Post
                   </NavLink>
                   {subNav.posts.map((link, index) => (
                     <NavLink
@@ -83,8 +83,9 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink> */}
+            {/* <NavLink to="/default/">Default</NavLink> */}
+            <NavLink to="/contacto/">Contacto</NavLink>
+            <NavLink to="/labs/">Labs</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
@@ -99,5 +100,5 @@ export class Navigation extends Component {
 }
 
 export default ({ subNav }) => (
-  <Location>{(route) => <Navigation subNav={subNav} {...route} />}</Location>
+  <Location>{route => <Navigation subNav={subNav} {...route} />}</Location>
 )
