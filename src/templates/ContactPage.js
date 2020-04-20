@@ -56,13 +56,13 @@ export const ContactPageTemplate = ({
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <FormSimpleAjax name="Simple Form Ajax" />
-        </div>
+        </div> */}
       </div>
     </section>
-
-    <GoogleMap locations={locations} />
+    {/* 
+    <GoogleMap locations={locations} /> */}
   </main>
 )
 
