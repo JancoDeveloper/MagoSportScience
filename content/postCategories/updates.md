@@ -1,7 +1,7 @@
 ---
 template: BlogIndex
-title: Updates
+title: Entrenamiento
 subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+featuredImage: 'https://ucarecdn.com/82219877-43f9-4faf-b8eb-451039a6179e/'
 ---
 
