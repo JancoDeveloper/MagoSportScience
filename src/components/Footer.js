@@ -4,6 +4,8 @@ import './Footer.css'
 
 export default () => (
   <div>
+    <br />
+    <InstagramFeed count="8" />
     <footer className="footer">
       <div className="container taCenter">
         <span>
