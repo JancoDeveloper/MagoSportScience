@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: ContactPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: "contact" }
+          - { label: Slug, name: slug, widget: hidden, default: "contacto" }
           - { label: Title, name: title, widget: string }
           - {
               label: Featured Image,
@@ -256,9 +256,9 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: HomePage,
+              default: LabPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: "" }
+          - { label: Slug, name: slug, widget: hidden, default: "Lab" }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - {
