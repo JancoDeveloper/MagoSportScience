@@ -9,6 +9,8 @@ featuredImage: 'https://ucarecdn.com/5e699b97-30e6-4c33-9a42-0b20ed05f335/'
 excerpt: >
   Qué debo comer los días previos?, ¿debo mantener los lineamientos de mi dieta
   diaria?, ¿más grasas? ¿más proteínas? o, ¿más carbohidratos?.
+categories:
+  - category: Comida
 meta:
   description: >
     Qué debo comer los días previos?, ¿debo mantener los lineamientos de mi
