@@ -1,23 +1,17 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
-import PageHeader from '../components/PageHeader'
-import Content from '../components/Content'
 import Layout from '../components/Layout'
 import PoseNet from 'react-posenet'
 
 // Export Template for use in CMS preview
 export const LabPageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
     <section className="section">
       <div className="container">
+        <h2>Test Alpha MagoBikeFit</h2>
+        <h3>
+          Identificación de puntos clave del cuerpo (Recomendado ver en PC){' '}
+        </h3>
         <PoseNet />
       </div>
     </section>
