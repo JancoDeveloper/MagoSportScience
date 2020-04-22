@@ -1,7 +1,7 @@
 ---
 template: ContactPage
-slug: contact
-title: Cantactame
+slug: contacto
+title: Contactame
 featuredImage: >-
   https://ucarecdn.com/28d51201-9a24-4071-b529-b4ad619261b1/-/crop/1031x465/0,234/-/preview/
 subtitle: >-
@@ -17,7 +17,8 @@ locations:
 meta:
   description: >-
     Para más información sobre ciclismo, planes de entrenamiento o lo que
-    necesites 
+    necesites
   title: Contacta al Mago Hilvar
 ---
+
 Estoy atento a resolver dudas relacionadas con el deporte y a desarrollar planes de entrenamiento específicos de acuerdo a tu modalidad y/o necesidad.

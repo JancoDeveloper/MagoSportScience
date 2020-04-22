@@ -8,7 +8,14 @@ import PoseNet from 'react-posenet'
 
 // Export Template for use in CMS preview
 export const LabPageTemplate = ({ title, subtitle, featuredImage, body }) => (
-  <main className="Lab">
+  <main className="Home">
+    <PageHeader
+      large
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
+
     <section className="section">
       <div className="container">
         <PoseNet />
